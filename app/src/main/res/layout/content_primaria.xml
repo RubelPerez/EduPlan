@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PrimariaActivity"
+    tools:showIn="@layout/activity_primaria">
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5pt"
+        android:background="@drawable/buttonshape"
+        android:text="Primer Ciclo"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5pt"
+        android:background="@drawable/buttonshape"
+        android:text="Segundo Ciclo"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
