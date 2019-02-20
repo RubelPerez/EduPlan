@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import programaescolar.developsrd.com.programaescolar.MainActivity;
 import programaescolar.developsrd.com.programaescolar.PrimariaActivity;
 import programaescolar.developsrd.com.programaescolar.R;
 
@@ -32,7 +33,7 @@ public class SegundoCicloPrimaria extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent atras = new Intent(SegundoCicloPrimaria.this,PrimariaActivity.class);
+                Intent atras = new Intent(SegundoCicloPrimaria.this,MainActivity.class);
                 atras.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // <- Aquí :)
                 startActivity(atras);
                 finish();

@@ -1,6 +1,8 @@
 package programaescolar.developsrd.com.programaescolar;
 
+import android.content.ContentValues;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -11,12 +13,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
+import programaescolar.developsrd.com.programaescolar.Primaria.PrimerCicloPrimaria;
+import programaescolar.developsrd.com.programaescolar.Primaria.SegundoCicloPrimaria;
+import programaescolar.developsrd.com.programaescolar.Secundaria.PrimerCicloSecundaria;
+import programaescolar.developsrd.com.programaescolar.Secundaria.SegundoCicloSecundaria;
+
 public class MainActivity extends AppCompatActivity {
-public Button btn1,btn2;
+public Button btn1,btn2,btn3,btn4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -31,18 +39,33 @@ public Button btn1,btn2;
         /*============================================================================*/
         btn1 = (Button) findViewById(R.id.btn1);
         btn2 = (Button) findViewById(R.id.btn2);
-
+        btn3 = (Button) findViewById(R.id.btn3);
+        btn4 = (Button) findViewById(R.id.btn4);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent primaria = new Intent(MainActivity.this,PrimariaActivity.class);
+                Intent primaria = new Intent(MainActivity.this,PrimerCicloPrimaria.class);
                 startActivity(primaria);
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent secundaria = new Intent(MainActivity.this,SecundariaActivity.class);
+                Intent secundaria = new Intent(MainActivity.this,SegundoCicloPrimaria.class);
+                startActivity(secundaria);
+            }
+        });
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent secundaria = new Intent(MainActivity.this,PrimerCicloSecundaria.class);
+                startActivity(secundaria);
+            }
+        });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent secundaria = new Intent(MainActivity.this,SegundoCicloSecundaria.class);
                 startActivity(secundaria);
             }
         });
@@ -71,4 +94,6 @@ public Button btn1,btn2;
 
         return super.onOptionsItemSelected(item);
     }
-}
+
+    }
+

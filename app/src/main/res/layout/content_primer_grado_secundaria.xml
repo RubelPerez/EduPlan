@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MateriasSecundaria.PrimerGradoSecundaria"
+    tools:showIn="@layout/activity_primer_grado_secundaria">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5pt"
+                android:background="@drawable/buttonshape"
+                android:text="Lengua Española"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5pt"
+                android:background="@drawable/buttonshape"
+                android:text="Ingles"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5pt"
+                android:background="@drawable/buttonshape"
+                android:text="frances"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5pt"
+                android:background="@drawable/buttonshape"
+                android:text="Matematica "
+                android:textColor="#000000"
+                android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5pt"
+                android:background="@drawable/buttonshape"
+                android:text="Ciencias Sociales"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5pt"
+                android:background="@drawable/buttonshape"
+                android:text="Ciencias Naturales"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5pt"
+                android:background="@drawable/buttonshape"
+                android:text="Educacion artistica"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5pt"
+                android:background="@drawable/buttonshape"
+                android:text="Educacion fisica"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5pt"
+                android:background="@drawable/buttonshape"
+                android:text="F.i.h.r."
+                android:textColor="#000000"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,4 +1,4 @@
-package programaescolar.developsrd.com.programaescolar.Primaria;
+package programaescolar.developsrd.com.programaescolar.MateriasSecundaria;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,13 +11,14 @@ import android.view.View;
 import programaescolar.developsrd.com.programaescolar.MainActivity;
 import programaescolar.developsrd.com.programaescolar.PrimariaActivity;
 import programaescolar.developsrd.com.programaescolar.R;
+import programaescolar.developsrd.com.programaescolar.Secundaria.PrimerCicloSecundaria;
 
-public class PrimerCicloPrimaria extends AppCompatActivity {
+public class SegundoGradoSecundaria extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_primer_ciclo_primaria);
+        setContentView(R.layout.activity_segundo_grado_secundaria);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -32,7 +33,7 @@ public class PrimerCicloPrimaria extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent atras = new Intent(PrimerCicloPrimaria.this,MainActivity.class);
+                Intent atras = new Intent(SegundoGradoSecundaria.this,PrimerCicloSecundaria.class);
                 atras.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // <- Aquí :)
                 startActivity(atras);
                 finish();

@@ -42,6 +42,38 @@
         <activity
             android:name=".Secundaria.SegundoCicloSecundaria"
             android:label="@string/title_activity_segundo_ciclo_secundaria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MateriasSecundaria.MateriasPrimerGradoSecundariaActivity"
+            android:label="@string/title_activity_materias_primer_grado_secundaria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MateriasSecundaria.PrimerGradoSecundaria"
+            android:label="@string/title_activity_primer_grado_secundaria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MateriasSecundaria.SegundoGradoSecundaria"
+            android:label="@string/title_activity_segundo_grado_secundaria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MateriasSecundaria.TercerGradoSecundaria"
+            android:label="@string/title_activity_tercer_grado_secundaria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MateriasSecundariasTemplate.PrimerGradoSecundariaTemplate"
+            android:label="@string/title_activity_primer_grado_secundaria_template"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MateriasSecundariasTemplate.TercerGradoSecundariaTemplate"
+            android:label="@string/title_activity_tercer_grado_secundaria_template"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TercerGradoSecundariaDias.TercerGradoSecundariaDiasTemplate"
+            android:label="@string/title_activity_tercer_grado_secundaria_dias_template"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TercerGradoSecundariaDias.TercerGradoMatematicasDias"
+            android:label="@string/title_activity_tercer_grado_matematicas_dias"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

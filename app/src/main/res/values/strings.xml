@@ -99,4 +99,188 @@
     <string name="title_activity_segundo_ciclo_primaria">SegundoCicloPrimaria</string>
     <string name="title_activity_primer_ciclo_secundaria">PrimerCicloSecundaria</string>
     <string name="title_activity_segundo_ciclo_secundaria">SegundoCicloSecundaria</string>
+    <string name="title_activity_materias_primer_grado_secundaria">
+        MateriasPrimerGradoSecundariaActivity
+    </string>
+    <string name="title_activity_primer_grado_secundaria">PrimerGradoSecundaria</string>
+    <string name="title_activity_segundo_grado_secundaria">SegundoGradoSecundaria</string>
+    <string name="title_activity_tercer_grado_secundaria">TercerGradoSecundaria</string>
+    <string name="title_activity_ver_db">VerDB</string>
+    <string name="title_activity_primer_grado_secundaria_template">PrimerGradoSecundariaTemplate
+    </string>
+    <string name="title_activity_tercer_grado_secundaria_template">TercerGradoSecundariaTemplate
+    </string>
+    <string name="title_activity_tercer_grado_secundaria_dias_template">
+        TercerGradoSecundariaDiasTemplate
+    </string>
+    <string name="title_activity_tercer_grado_matematicas_dias">TercerGradoMatematicasDias</string>
+   <!--Strind dias-->
+    <string name="dia1">
+        Día 1
+    </string>
+    <string name="dia2">
+        Día 2
+    </string>
+    <string name="dia3">
+        Día 3
+    </string>
+    <string name="dia4">
+        Día 4
+    </string>
+    <string name="dia5">
+        Día 5
+    </string>
+    <string name="dia6">
+        Día 6
+    </string>
+    <string name="dia7">
+        Día 7
+    </string>
+    <string name="dia8">
+        Día 8
+    </string>
+    <string name="dia9">
+        Día 9
+    </string>
+    <string name="dia10">
+        Día 10
+    </string>
+    <string name="dia11">
+        Día 11
+    </string>
+    <string name="dia12">
+        Día 12
+    </string>
+    <string name="dia13">
+        Día 13
+    </string>
+    <string name="dia14">
+        Día 14
+    </string>
+    <string name="dia15">
+        Día 15
+    </string>
+    <string name="dia16">
+        Día 16
+    </string>
+    <string name="dia17">
+        Día 17
+    </string>
+    <string name="dia18">
+        Día 18
+    </string>
+    <string name="dia19">
+        Día 19
+    </string>
+    <string name="dia20">
+        Día 20
+    </string>
+    <string name="dia21">
+        Día 21
+    </string>
+    <string name="dia22">
+        Día 22
+    </string>
+    <string name="dia23">
+        Día 23
+    </string>
+    <string name="dia24">
+        Día 24
+    </string>
+    <string name="dia25">
+        Día 25
+    </string>
+    <string name="dia26">
+        Día 26
+    </string>
+    <string name="dia27">
+        Día 27
+    </string>
+    <string name="dia28">
+        Día 28
+    </string>
+    <string name="dia29">
+        Día 29
+    </string>
+    <string name="dia30">
+        Día 30
+    </string>
+    <string name="dia31">
+        Día 31
+    </string>
+    <string name="dia32">
+        Día 32
+    </string>
+    <string name="dia33">
+        Día 33
+    </string>
+    <string name="dia34">
+        Día 34
+    </string>
+    <string name="dia35">
+        Día 35
+    </string>
+    <string name="dia36">
+        Día 36
+    </string>
+    <string name="dia37">
+        Día 37
+    </string>
+    <string name="dia38">
+        Día 38
+    </string>
+    <string name="dia39">
+        Día 39
+    </string>
+    <string name="dia40">
+        Día 40
+    </string>
+    <string name="dia41">
+        Día 41
+    </string>
+    <string name="dia42">
+        Día 42
+    </string>
+    <string name="dia43">
+        Día 43
+    </string>
+    <string name="dia44">
+        Día 44
+    </string>
+    <string name="dia45">
+        Día 45
+    </string>
+    <string name="dia46">
+        Día 46
+    </string>
+    <string name="dia47">
+        Día 47
+    </string>
+    <string name="dia48">
+        Día 48
+    </string>
+    <string name="dia49">
+        Día 49
+    </string>
+    <!--Fin string dias-->
+    <!--Unidades-->
+    <string name="unidad1">
+        unidad 1
+    </string>
+    <string name="unidad2">
+        Unidad 2
+    </string>
+    <string name="unidad3">
+        Unidad 3
+    </string>
+    <string name="unidad4">
+        Unidad 4
+    </string>
+    <string name="unidad5">
+        Unidad 5
+    </string>
+    <string name="unidad6">
+        Unidad 6
+    </string>
+    <!--Fin unidades-->
 </resources>
