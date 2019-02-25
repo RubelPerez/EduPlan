@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import programaescolar.developsrd.com.programaescolar.MainActivity;
+import programaescolar.developsrd.com.programaescolar.MateriasSecundariasTemplate.TercerGradoSecundariaTemplate;
 import programaescolar.developsrd.com.programaescolar.PrimariaActivity;
 import programaescolar.developsrd.com.programaescolar.R;
 

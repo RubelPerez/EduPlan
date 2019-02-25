@@ -18,87 +18,231 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <Button
-                android:id="@+id/btn1"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="5pt"
-                android:background="@drawable/buttonshape"
-                android:text="Lengua Española"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-            <Button
-                android:id="@+id/btn2"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    app:srcCompat="@drawable/bullet" />
+
+                <EditText
+                    android:id="@+id/btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5pt"
+                    android:layout_weight="0.8"
+                    android:focusable="false"
+                    android:textSize="20sp"
+                    android:text="Lengua Española"
+                    android:textColor="#000000"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="5pt"
-                android:background="@drawable/buttonshape"
-                android:text="Ingles"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-            <Button
-                android:id="@+id/btn3"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    app:srcCompat="@drawable/bullet" />
+
+                <EditText
+                    android:id="@+id/btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5pt"
+                    android:layout_weight="0.8"
+                    android:focusable="false"
+                    android:text="Ingles"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="5pt"
-                android:background="@drawable/buttonshape"
-                android:text="frances"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-            <Button
-                android:id="@+id/btn4"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    app:srcCompat="@drawable/bullet" />
+
+                <EditText
+                    android:id="@+id/btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5pt"
+                    android:layout_weight="0.8"
+                    android:focusable="false"
+                    android:text="Frances"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="5pt"
-                android:background="@drawable/buttonshape"
-                android:text="Matematica "
-                android:textColor="#000000"
-                android:textSize="30sp" />
-            <Button
-                android:id="@+id/btn5"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    app:srcCompat="@drawable/bullet" />
+
+                <EditText
+                    android:id="@+id/btn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5pt"
+                    android:layout_weight="0.8"
+                    android:focusable="false"
+                    android:text="Matematicas"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="5pt"
-                android:background="@drawable/buttonshape"
-                android:text="Ciencias Sociales"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-            <Button
-                android:id="@+id/btn6"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    app:srcCompat="@drawable/bullet" />
+
+                <EditText
+                    android:id="@+id/btn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5pt"
+                    android:layout_weight="0.8"
+                    android:focusable="false"
+                    android:text="Ciencias Sociales"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="5pt"
-                android:background="@drawable/buttonshape"
-                android:text="Ciencias Naturales"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-            <Button
-                android:id="@+id/btn7"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    app:srcCompat="@drawable/bullet" />
+
+                <EditText
+                    android:id="@+id/btn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5pt"
+                    android:layout_weight="0.8"
+                    android:focusable="false"
+                    android:text="Ciencias Naturales"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="5pt"
-                android:background="@drawable/buttonshape"
-                android:text="Educacion artistica"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-            <Button
-                android:id="@+id/btn8"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    app:srcCompat="@drawable/bullet" />
+
+                <EditText
+                    android:id="@+id/btn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5pt"
+                    android:layout_weight="0.8"
+                    android:focusable="false"
+                    android:text="Educacion Artistica"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="5pt"
-                android:background="@drawable/buttonshape"
-                android:text="Educacion fisica"
-                android:textColor="#000000"
-                android:textSize="30sp" />
-            <Button
-                android:id="@+id/btn9"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    app:srcCompat="@drawable/bullet" />
+
+                <EditText
+                    android:id="@+id/btn8"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5pt"
+                    android:layout_weight="0.8"
+                    android:focusable="false"
+                    android:text="Educacion Fisica"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="5pt"
-                android:background="@drawable/buttonshape"
-                android:text="F.i.h.r."
-                android:textColor="#000000"
-                android:textSize="30sp" />
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    app:srcCompat="@drawable/bullet" />
+
+                <EditText
+                    android:id="@+id/btn9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5pt"
+                    android:focusable="false"
+                    android:layout_weight="0.8"
+                    android:text="F.I.H.R."
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

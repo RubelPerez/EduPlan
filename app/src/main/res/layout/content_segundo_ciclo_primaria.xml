@@ -3,41 +3,87 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_light"
-    android:gravity="center"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Primaria.SegundoCicloPrimaria"
     tools:showIn="@layout/activity_segundo_ciclo_primaria">
 
-    <Button
-        android:id="@+id/btn1"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="5pt"
-        android:background="@drawable/buttonshape"
-        android:text="Cuarto grado"
-        android:textColor="#000000"
-        android:textSize="30sp" />
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="5pt"
-        android:background="@drawable/buttonshape"
-        android:text="Quinto grado"
-        android:textColor="#000000"
-        android:textSize="30sp" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            app:srcCompat="@drawable/bullet" />
 
-    <Button
-        android:id="@+id/btn3"
+        <EditText
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5pt"
+            android:layout_weight="0.8"
+            android:focusable="false"
+            android:text="Cuarto"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="5pt"
-        android:background="@drawable/buttonshape"
-        android:text="Sexto grado"
-        android:textColor="#000000"
-        android:textSize="30sp" />
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            app:srcCompat="@drawable/bullet" />
+
+        <EditText
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5pt"
+            android:layout_weight="0.8"
+            android:focusable="false"
+            android:text="Quinto"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            app:srcCompat="@drawable/bullet" />
+
+        <EditText
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5pt"
+            android:layout_weight="0.8"
+            android:focusable="false"
+            android:text="Sexto"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
 </LinearLayout>

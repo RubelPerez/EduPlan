@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import programaescolar.developsrd.com.programaescolar.MainActivity;
 import programaescolar.developsrd.com.programaescolar.MateriasSecundaria.PrimerGradoSecundaria;
@@ -19,7 +20,7 @@ import programaescolar.developsrd.com.programaescolar.R;
 import programaescolar.developsrd.com.programaescolar.SecundariaActivity;
 
 public class PrimerCicloSecundaria extends AppCompatActivity {
-public  Button btn1,btn2,btn3;
+public EditText btn1,btn2,btn3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,9 +45,9 @@ public  Button btn1,btn2,btn3;
                 finish();
             }
         });
-        btn1=(Button)findViewById(R.id.btn1);
-        btn2=(Button)findViewById(R.id.btn2);
-        btn3=(Button)findViewById(R.id.btn3);
+        btn1=(EditText)findViewById(R.id.btn1);
+        btn2=(EditText)findViewById(R.id.btn2);
+        btn3=(EditText)findViewById(R.id.btn3);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override

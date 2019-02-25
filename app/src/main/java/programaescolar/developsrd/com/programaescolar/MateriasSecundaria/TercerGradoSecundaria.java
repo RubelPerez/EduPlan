@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import programaescolar.developsrd.com.programaescolar.MainActivity;
 import programaescolar.developsrd.com.programaescolar.MateriasSecundariasTemplate.PrimerGradoSecundariaTemplate;
@@ -17,7 +18,7 @@ import programaescolar.developsrd.com.programaescolar.R;
 import programaescolar.developsrd.com.programaescolar.Secundaria.PrimerCicloSecundaria;
 
 public class TercerGradoSecundaria extends AppCompatActivity {
-    public Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9;
+    public EditText btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9;
     public int btnID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,15 +36,15 @@ public class TercerGradoSecundaria extends AppCompatActivity {
             }
         });
 
-        btn1= (Button)findViewById(R.id.btn1);
-        btn2= (Button)findViewById(R.id.btn2);
-        btn3= (Button)findViewById(R.id.btn3);
-        btn4= (Button)findViewById(R.id.btn4);
-        btn5= (Button)findViewById(R.id.btn5);
-        btn6= (Button)findViewById(R.id.btn6);
-        btn7= (Button)findViewById(R.id.btn7);
-        btn8= (Button)findViewById(R.id.btn8);
-        btn9= (Button)findViewById(R.id.btn9);
+        btn1= (EditText)findViewById(R.id.btn1);
+        btn2= (EditText)findViewById(R.id.btn2);
+        btn3= (EditText)findViewById(R.id.btn3);
+        btn4= (EditText)findViewById(R.id.btn4);
+        btn5= (EditText)findViewById(R.id.btn5);
+        btn6= (EditText)findViewById(R.id.btn6);
+        btn7= (EditText)findViewById(R.id.btn7);
+        btn8= (EditText)findViewById(R.id.btn8);
+        btn9= (EditText)findViewById(R.id.btn9);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override

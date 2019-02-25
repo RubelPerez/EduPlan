@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.EditText;
 
 import programaescolar.developsrd.com.programaescolar.Primaria.PrimerCicloPrimaria;
 import programaescolar.developsrd.com.programaescolar.Primaria.SegundoCicloPrimaria;
@@ -19,7 +20,7 @@ import programaescolar.developsrd.com.programaescolar.Secundaria.PrimerCicloSecu
 import programaescolar.developsrd.com.programaescolar.Secundaria.SegundoCicloSecundaria;
 
 public class MainActivity extends AppCompatActivity {
-public Button btn1,btn2,btn3,btn4;
+public EditText btn1,btn2,btn3,btn4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,10 +38,10 @@ public Button btn1,btn2,btn3,btn4;
             }
         });
         /*============================================================================*/
-        btn1 = (Button) findViewById(R.id.btn1);
-        btn2 = (Button) findViewById(R.id.btn2);
-        btn3 = (Button) findViewById(R.id.btn3);
-        btn4 = (Button) findViewById(R.id.btn4);
+        btn1 = (EditText) findViewById(R.id.btn1);
+        btn2 = (EditText) findViewById(R.id.btn2);
+        btn3 = (EditText) findViewById(R.id.btn3);
+        btn4 = (EditText) findViewById(R.id.btn4);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
